@@ -62,16 +62,29 @@ footer {
 
 .off-site-menu-open .off-site-menu, 
 .off-site-menu-open .container {
-    transform: translateX(8rem);
+    transform: translateX(250px);
 }
 
 .off-site-menu {
     position: fixed;
     top: 0;
     bottom: 0;
-    left: -8rem;
-    width: 8rem;
+    left: -250px;
+    width: 250px;
     background-color: purple;
+  }
+
+  #sidebar {
+      padding: 20px;
+      color: white;
+  }
+
+  #sidebar li {
+      padding: 10px;
+  }
+
+  #sidebar i {
+      padding-right: 10px;
   }
 
 
